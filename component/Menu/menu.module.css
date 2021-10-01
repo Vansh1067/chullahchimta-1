@@ -1,0 +1,137 @@
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Heading{
+    width: 600px;
+    margin: 35px 0;
+    align-self: flex-start;
+}
+.arrow{
+    height: 400px;
+    position: absolute;
+    left: 400px;top: 150px;
+   
+}
+
+.logo{
+    width: 300px;
+    height: 300px;
+    margin-top: 65px;
+    cursor: pointer;
+    transition: linear 1s;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 65px 0;
+    width: 100%;
+}
+.galleryPic{
+    width: 300px;
+    height: 350px;
+  
+}
+.aunty{
+    width: 400px;
+    margin: 35px 0;
+}
+.para{
+    font-family: FrederickatheGreat;
+    font-size: 80px;
+    color: #fff;
+    margin: 25px 0;
+}
+@media screen and (max-width: 1024px){
+    .arrow{
+      
+        left: 150px;
+        top:100px;
+       
+    }
+    
+} 
+@media screen and (max-width: 768px){
+    .arrow{
+        top:50px;
+        left:0px;
+       
+    }
+    .Heading{
+     width: 300px;
+    }
+    .logo{
+        width: 250px;
+        height: 250px;
+        margin-top: 65px;
+    }
+    .aunty{
+        width: 300px;
+        margin: 35px 0;
+    }
+    .para{
+      
+        font-size: 40px;
+       
+       
+    }
+    .galleryPic{
+        width: 280px;
+        height: 320px;
+      
+    }
+} 
+
+@media screen and (max-width: 630px){
+    .arrow{
+        top:80px;
+    height: 300px;
+    width: 300px;
+    left:100px;
+       
+    }
+    .logo{
+        width: 200px;
+        height: 200px;
+        margin-top: 65px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .arrow{
+        
+    height: 250px;
+    width: 250px;
+    left:80px;
+    top:100px
+       
+    }
+    .logo{
+        width: 150px;
+        height: 150px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 340px){
+    .arrow{
+        top:50px;
+    height: 300px;
+    width: 300px;
+    left:0px;
+       
+    }
+    .logo{
+        width: 150px;
+        height: 150px;
+        margin-top: 30px;
+    }
+}

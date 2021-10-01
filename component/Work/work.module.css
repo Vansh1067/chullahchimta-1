@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    width: 600px;
+    margin: 35px 0;
+}
+
+.deliveryIcon{
+    width: 300px;
+    margin: 35px 0;
+}
+.para{
+    font-size: 40px;
+    text-align: center;
+    margin: 35px 0;
+}
+.brands{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.brandIcon{
+    width: 250px;
+    height: 250px;
+}
+
+@media screen and (max-width: 768px){
+   .heading{
+    width: 300px;
+   }
+   .deliveryIcon{
+    width: 150px;
+   }
+}

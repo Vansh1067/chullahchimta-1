@@ -1,0 +1,72 @@
+.container{
+    padding: 50px 0px 80px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #262626;
+}
+.inputDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.icon{
+    background-color:#DCA85A ;
+    position: absolute;
+    padding: 2px 10px;
+    left:0px;
+    width: 50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+.input{
+  margin: 25px 0;
+  outline: none;
+  font-size: 16px;
+  border-radius: 15px;
+  padding:8px 10px;
+  padding-left: 55px;
+  min-width: 300px;
+  border: none;
+}
+.heading{
+    font-size: 55px;
+    color: #DCA85A;
+    margin: 25px 0;
+}
+.para{
+    color: #fff;
+    font-size: 14px;
+}
+.condition{
+    color:#fff;
+    font-size: 12px;
+}
+.button{
+    font-size: 16px;
+    padding: 10px 25px;
+    border:2px solid #fff;
+    border-radius: 8px;
+    background: none;
+    outline: none;
+    color: #fff;
+    margin: 25px 0;
+}
+.logoDiv{
+
+    justify-content: flex-end;
+    
+}
+@media screen and (max-width:600px){
+    .logoDiv{
+      
+        display: none;
+       
+    }
+    
+} 
