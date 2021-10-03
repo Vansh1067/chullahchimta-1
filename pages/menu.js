@@ -1,19 +1,19 @@
 import Head from 'next/head'
 
-import Landing from '../component/Landing'
-import Aboutus from '../component/Aboutus'
+
 import Header from '../component/header'
-import Work from '../component/work'
+
 import Footer from '../component/footer' 
 import { useRouter } from 'next/router'
-import Menu from '../component/Menu'
-import Subscribe from '../component/subscribe'
 
+import Subscribe from '../component/subscribe'
+import Loader from '../component/Loader'
 import styles from '../styles/menu.module.css'
+import { useState } from 'react'
 
 export default function Home() {
   const router=useRouter()
-
+  const [loading,setLoading]=useState(true)
   return (
     <div >
       <Head>
@@ -23,8 +23,9 @@ export default function Home() {
       </Head>
       <Header/>
         <div className={styles.imageDiv}>
-        <img src="/images/menu.jpg" className={styles.menu}/> 
-
+          {loading?<div className={styles.loaderDiv}><Loader/></div>: null}
+          <img  src="/images/menu.jpg" onLoad={()=>setLoading(!loading)} width={loading?'0%':'100%'} />  
+        
         </div>
        <Subscribe/>
        <Footer/>

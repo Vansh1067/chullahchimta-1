@@ -17,10 +17,10 @@ const Aboutus=()=>{
         <div className={styles.line}></div>
         <p className={styles.heading}>Dedicated To Delight You</p>
         <div style={{marginBottom:'50px'}} >
-        <p className={styles.para}>Orange is a multi-faceted color with different meanings in different cultures. The hue is quite prominent in Asian religions, and many monks and holy men wear orange robes.</p>
-        <p className={styles.para}> According to Confucianism, orange is the color of transformation. The ancient Chinese associated color with harvests, happiness, wealth, and celebrations.  </p>
-        <p className={styles.para}>Symbolically it’s connected to perfection and the highest state of illumination. It can also be intended to signify the quest for knowledge.</p>
-        <p className={styles.para}>Zuzi and wok is intended to prepare food with authenticity. so that the food which goes in your stomach brings you happiness.</p>
+        <p className={styles.para}>The word “desi” has become a global buzzword. While this has certainly increased the worldwide consciousness around the Indian culture, we believe that it’s food that makes people instantly recognise, feel and connect with the culture. Therefore, we at chulha chimta have a purposive drive to accentuate this movement of “desi consciousness”.</p>
+        <p className={styles.para}>Going back to the roots, our logo captures the age old tools and mechanics of cooking that world now seems to take interest lately. Chulha (stove) holds the pious driving force, the fire that effectuates the process of cooking. The chimta (tong) makes sure that the roti (bread) is cooked to perfection on the tawa (pan) so that it can be the perfect cradle to carry all complex flavours for your taste buds to cherish.</p>
+        <p className={styles.para}>We invite you all to try the extensive yet simple cuisine offerings that will surely make you correspond with the desi roots.</p>
+
         </div>
        {/*  <Button text="Learn More"/>  */}
        

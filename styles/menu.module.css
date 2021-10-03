@@ -4,7 +4,16 @@
 .imageDiv{
   
     width: 100%;
+  
+
    
+}
+.loaderDiv{
+  align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 60vh;
+    flex-direction: column;
 }
 .copyright{
     text-align: center;
@@ -13,3 +22,4 @@
     color:#fff;
     background-color: #262626;
   }
+ 

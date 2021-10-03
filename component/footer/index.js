@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faInstagram } from '@fortawesome/free-brands-svg-icons'
 import styles from './footer.module.css'
 import Link from 'next/link'
+import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 const Footer=()=>{
 
     return ( <div className={styles.footer} id="contactus">
@@ -18,8 +19,8 @@ const Footer=()=>{
 
     </div>
     <div >
-       <p className={styles.paraLink}><a href="tel:917639639">+91-8273902926</a></p>
-       <p className={styles.paraLink}><a href="tel:917639639">info@zuzinwok.com</a></p>
+    <Link href="tel:01332359798" ><p className={styles.paraLink}><a href="tel:917639639"><FontAwesomeIcon icon={faPhoneAlt} color="#fff" style={{width:'15px'}}/>  &nbsp;01332 359798</a></p></Link>
+   <p className={styles.paraLink}><FontAwesomeIcon icon={faEnvelope} color="#fff" style={{width:'15px'}}/> &nbsp;info@chullahchimta.com</p>
 
         <div className={styles.footerSocial}>
       
